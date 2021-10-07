@@ -42,14 +42,17 @@
 									</select>
 								</div>
 								<div class="form-group">
-									<input type="text" class="form-control rounded-left" placeholder="Username" required>
+									<input type="text" class="form-control rounded-left" placeholder="Username">
 								</div>
 								<div class="form-group d-flex">
-									<input type="password" class="form-control rounded-left" placeholder="Password" required>
+									<input type="password" class="form-control rounded-left" placeholder="Password">
 								</div>
-								<div class="form-group">
-									<button type="submit" class="btn rounded submit px-3" style="width:30%;background-color:#915233;color:#ffffff;"><span class="fa fa-sign-in"></span>&nbsp;&nbsp;&nbsp;Login</button>
-									<button type="reset" class="btn rounded submit px-3" style="width:30%;margin-left:39%;background-color:#915233;color:#ffffff;"><span class="fa fa-times-circle"></span>&nbsp;&nbsp;&nbsp;Batal</button>
+								<center>
+									<div class="form-group">
+									<button type="submit" class="btn rounded submit px-3" style="width:30%;background-color:#915233;color:#ffffff;margin-right:5%;"><span class="fa fa-sign-in"></span>&nbsp;&nbsp;&nbsp;Login</button>
+
+									<button class="btn rounded submit px-3" style="width:30%;background-color:#915233;color:#ffffff;margin-left:5%"><a href="<?=base_url()?>CAwal/Pilih_menu" style="color:#ffffff"><span class="fa fa-times-circle"></span>&nbsp;&nbsp;&nbsp;Batal</a></button>
+								</center>
 								</div>
 							</form>
 						</div>
