@@ -38,7 +38,7 @@
 								</div>
 
 								<div class="col-md-4 col-sm-12 mb-3">
-									<a href="#">
+									<a href="<?=base_url()?>CAWAL/Login">
 										<div class="card">
 											<img src="<?=base_url()?>/assets/awal/Simbada.png" class="card-img-top" alt="..." style="max-height:270px;">
 											<!-- <div class="card-footer">
@@ -49,7 +49,7 @@
 								</div>
 	
 								<div class="col-md-4 col-sm-12 mb-3">
-									<a href="#">
+									<a href="<?=base_url()?>CAWAL/Login">
 										<div class="card">
 											<img src="<?=base_url()?>/assets/awal/arsip.png" class="card-img-top" alt="..." style="max-height:270px;">
 											<!-- <div class="card-footer">
@@ -60,7 +60,7 @@
 								</div>
 
 								<div class="col-md-4 col-sm-12 mb-3">
-									<a href="#">
+									<a href="<?=base_url()?>CAWAL/Login">
 										<div class="card">
 											<img src="<?=base_url()?>/assets/awal/Sigapuranew.png" class="card-img-top" alt="..." style="max-height:270px;">
 											<!-- <div class="card-footer">
@@ -82,7 +82,7 @@
 								</div>
 
 								<div class="col-md-4 col-sm-12 mb-3">
-									<a href="#">
+									<a href="<?=base_url()?>CAWAL/Login">
 										<div class="card">
 											<img src="<?=base_url()?>/assets/awal/sewa.png" class="card-img-top" alt="..." style="height:240px;">
 											<!-- <div class="card-footer">
