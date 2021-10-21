@@ -54,7 +54,7 @@
 									<div class="form-group">
 									<button type="submit" class="btn rounded submit px-3" style="width:40%;background-color:#ffffff;color:#000000;margin-right:5%;"><span class="fa fa-sign-in"></span>&nbsp;&nbsp;&nbsp;Login</button>
 
-									<button class="btn rounded submit px-3" style="width:40%;background-color:#ffffff;color:#000000;margin-left:5%"><a href="<?=base_url()?>CAwal/Pilih_menu" style="color:#000000"><span class="fa fa-times-circle"></span>&nbsp;&nbsp;&nbsp;Batal</a></button>
+									<button type="button" class="btn rounded submit px-3" style="width:40%;background-color:#ffffff;color:#000000;margin-left:5%"><a href="<?=base_url()?>CAwal/Pilih_menu" style="color:#000000"><span class="fa fa-times-circle"></span>&nbsp;&nbsp;&nbsp;Batal</a></button>
 								</center>
 								</div>
 							</form>
