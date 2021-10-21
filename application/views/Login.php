@@ -11,7 +11,7 @@
     <style>
     	html { 
 			background-color: transparent;
-			background: url(<?php echo base_url('assets/login/bg_login.png') ?>) no-repeat center center fixed; 
+			background: url(<?php echo base_url('assets/awal/login.png') ?>) no-repeat center center fixed; 
 			-webkit-background-size: cover;
 			-moz-background-size: cover;
 			-o-background-size: cover;
@@ -23,43 +23,46 @@
 		}
 	</style>
 	<body>
-		<section class="ftco-section" style="margin-top:-5%;">
-			<div class="container">
+		<!-- <section class="ftco-section" style="margin-top:-6%;margin-bottom:-100%;"> -->
+			<div class="container" style="margin-top:5%;">
+				<div class="container">
 				<div class="row justify-content-center">
 					<div class="col-md-7 col-lg-5">
-						<div class="login-wrap p-4 p-md-5">
-							<div class="icon d-flex align-items-center justify-content-center" style="background-color:#915233;">
-								<span class="fa fa-user-o"></span>
+						<div class="login-wrap p-4 p-md-5" style="background-color:#000000;background-color: rgba(0, 0, 0, 0);border: 7px solid white;border-radius:30px;">
+							<div class="icon d-flex align-items-center justify-content-center" style="margin-top:-10px;background-color:#ffffff;width:130px;height:130px;">
+								<span><img src="<?=base_url()?>assets/awal/logo_kab.png" style="width:80px;height:110px;"></span>
 							</div>
-							<h3 class="text-center mb-4">Login</h3>
-							<form action="#" class="login-form">
+							<h4 class="text-center mb-4" style="color:#ffffff;"><b>NAMA APLIKASI</b></h4>
+							<form action="#" class="login-form" style="margin-bottom:-20px;">
 								<div class="form-group">
-									<select class="form-control select" aria-label="Default select example">
-										<option selected disabled>Pilih Login Sebagai</option>
-										<option value="1">One</option>
-										<option value="2">Two</option>
-										<option value="3">Three</option>
+									<select class="form-control select" aria-label="Default select example" style="height:40px;">
+										<option selected disabled style="text-align:center;">Pilih Login Sebagai</option>
+										<option value="1" style="text-align:center;">One</option>
+										<option value="2" style="text-align:center;">Two</option>
+										<option value="3" style="text-align:center;">Three</option>
 									</select>
 								</div>
 								<div class="form-group">
-									<input type="text" class="form-control rounded-left" placeholder="Username">
+									<input type="text" class="form-control rounded-left" placeholder="Username" style="text-align:center;height:40px;">
 								</div>
 								<div class="form-group d-flex">
-									<input type="password" class="form-control rounded-left" placeholder="Password">
+									<input type="password" class="form-control rounded-left" placeholder="Password" style="text-align:center;height:40px;">
 								</div>
+								<br>
 								<center>
 									<div class="form-group">
-									<button type="submit" class="btn rounded submit px-3" style="width:30%;background-color:#915233;color:#ffffff;margin-right:5%;"><span class="fa fa-sign-in"></span>&nbsp;&nbsp;&nbsp;Login</button>
+									<button type="submit" class="btn rounded submit px-3" style="width:30%;background-color:#ffffff;color:#000000;margin-right:5%;"><span class="fa fa-sign-in"></span>&nbsp;&nbsp;&nbsp;Login</button>
 
-									<button class="btn rounded submit px-3" style="width:30%;background-color:#915233;color:#ffffff;margin-left:5%"><a href="<?=base_url()?>CAwal/Pilih_menu" style="color:#ffffff"><span class="fa fa-times-circle"></span>&nbsp;&nbsp;&nbsp;Batal</a></button>
+									<button class="btn rounded submit px-3" style="width:30%;background-color:#ffffff;color:#000000;margin-left:5%"><a href="<?=base_url()?>CAwal/Pilih_menu" style="color:#000000"><span class="fa fa-times-circle"></span>&nbsp;&nbsp;&nbsp;Batal</a></button>
 								</center>
 								</div>
 							</form>
 						</div>
 					</div>
 				</div>
+				</div>
 			</div>
-		</section>
+		<!-- </section> -->
 
 		<script src="<?=base_url()?>/assets/login/js/jquery.min.js"></script>
 		<script src="<?=base_url()?>/assets/login/js/popper.js"></script>

@@ -7,7 +7,7 @@
         <meta name="author" content="" />
         <title><?=$title?></title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="<?=base_url()?>assets/awal/assets/favicon.ico" />
+        <!-- <link rel="icon" type="image/x-icon" href="<?=base_url()?>assets/awal/logo_kab.png" /> -->
         <!-- Bootstrap Icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Google fonts-->
@@ -21,7 +21,7 @@
     </head>
     <style>
     	header.masthead { 
-			background:  linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url(<?php echo base_url('assets/awal/page1.png') ?>); 
+			background:  linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url(<?php echo base_url('assets/awal/halaman_awal.png') ?>); 
             padding-top: 10rem;
             padding-bottom: calc(10rem - 4.5rem);
             background-position: center;
@@ -33,18 +33,34 @@
     <body id="page-top">
         <header class="masthead">
             <div class="container px-4 px-lg-5 h-100">
-                <div class="row gx-4 gx-lg-5 h-100 ">
-                    <div class="col-lg-8 align-self-end">
+                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center" style="margin-left:50%;">
+                    <div class="col-lg-12 align-self-end" style="text-align:right;">
                         <h1 class="text-white font-weight-bold">Selamat Datang di Aplikasi</h1>
                         <hr class="divider" />
                     </div>
-                    <div class="col-lg-8 align-self-baseline">
+                    <div class="col-lg-12 align-self-baseline" style="text-align:right;">
                         <p class="text-white-75 mb-5">Selamat Datang di aplikasi</p>
                         <a class="btn btn-primary btn-xl" href="<?=base_url()?>CAwal/Pilih_menu">NEXT&nbsp;&nbsp;<i class="fa fa-arrow-circle-right"></i></a>
                     </div>
                 </div>
             </div>
         </header>
+
+        <!-- <header class="masthead">
+            <div class="container px-4 px-lg-5 h-100" style="float:right;">
+                <div class="row gx-4 gx-lg-5 h-100 ">
+                    <div class="col-lg-12 align-self-end" style="float:right;">
+                        <h1 class="text-white font-weight-bold" style="text-align:right;">Selamat Datang di</h1>
+                        <h1 class="text-white font-weight-bold" style="text-align:right;">Aplikasi</h1>
+                        <hr class="divider" />
+                    </div>
+                    <div class="col-lg-12 align-self-baseline" style="float:right;">
+                        <p class="text-white-75 mb-5" style="text-align:right;">Selamat Datang di aplikasi</p>
+                        <a class="btn btn-primary btn-xl" href="<?=base_url()?>CAwal/Pilih_menu" style="float:right;">NEXT&nbsp;&nbsp;<i class="fa fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </header> -->
         
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
