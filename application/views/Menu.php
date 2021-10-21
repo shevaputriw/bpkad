@@ -73,7 +73,7 @@
 								<div class="col-md-4 col-sm-12 mb-3">
 									<a href="https://jalasemar.mojokertokab.go.id/siti/login">
 										<div class="card">
-											<img src="<?=base_url()?>/assets/awal/Siti.png" class="card-img-top" alt="..." style="height:240px;">
+											<img src="<?=base_url()?>/assets/awal/Siti.png" class="card-img-top" alt="..." style="max-height:270px;">
 											<!-- <div class="card-footer">
 											<center><a href="<?=base_url()?>CAwal/Login" class="card-link"><button class="btn rounded submit px-3" style="background-color:#c35846;color:#ffffff;"><b>Siti</b></button></a></center>
 											</div> -->
@@ -84,7 +84,7 @@
 								<div class="col-md-4 col-sm-12 mb-3">
 									<a href="<?=base_url()?>CAwal/Login">
 										<div class="card">
-											<img src="<?=base_url()?>/assets/awal/sewa.png" class="card-img-top" alt="..." style="height:240px;">
+											<img src="<?=base_url()?>/assets/awal/sewa.png" class="card-img-top" alt="..." style="max-height:270px;">
 											<!-- <div class="card-footer">
 											<center><a href="<?=base_url()?>CAwal/Login" class="card-link"><button class="btn rounded submit px-3" style="background-color:#c35846;color:#ffffff;"><b>Siti</b></button></a></center>
 											</div> -->

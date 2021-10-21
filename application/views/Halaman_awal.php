@@ -21,12 +21,19 @@
     </head>
     <style>
     	header.masthead { 
-			background:  linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url(<?php echo base_url('assets/awal/halaman_awal.png') ?>); 
+			background:/*  linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url(<?php echo base_url('assets/awal/halaman_awal.png') ?>); 
             padding-top: 10rem;
             padding-bottom: calc(10rem - 4.5rem);
             background-position: center;
             background-repeat: no-repeat;
             background-attachment: scroll;
+            background-size: cover;*/
+
+            background-color: transparent;
+            background:  linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url(<?php echo base_url('assets/awal/halaman_awal.png') ?>); 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
             background-size: cover;
 		}
 	</style>
