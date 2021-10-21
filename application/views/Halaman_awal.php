@@ -7,7 +7,7 @@
         <meta name="author" content="" />
         <title><?=$title?></title>
         <!-- Favicon-->
-        <!-- <link rel="icon" type="image/x-icon" href="<?=base_url()?>assets/awal/logo_kab.png" /> -->
+        <link rel="icon" type="image/x-icon" href="<?=base_url()?>assets/awal/logo_kab.png" />
         <!-- Bootstrap Icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Google fonts-->

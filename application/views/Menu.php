@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<title><?=$title?></title>
-		<!-- <link rel="icon" type="image/x-icon" href="<?=base_url()?>assets/awal/assets/favicon.ico" /> -->
+		<link rel="icon" type="image/x-icon" href="<?=base_url()?>assets/awal/logo_kab.png" />
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
 	</head>
