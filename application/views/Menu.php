@@ -38,7 +38,7 @@
 								</div>
 
 								<div class="col-md-4 col-sm-12 mb-3">
-									<a href="https://jalasemar.mojokertokab.go.id/simbada/login">
+									<a href="https://jalasemar.mojokertokab.go.id/jalasemar">
 										<div class="card">
 											<img src="<?=base_url()?>/assets/awal/Simbada.png" class="card-img-top" alt="..." style="max-height:270px;">
 											<!-- <div class="card-footer">
