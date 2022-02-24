@@ -80,31 +80,32 @@
 						</div>
 
 						<div class="col-md-4 col-sm-12 mb-3">
-							<a href="<?=base_url()?>CAwal/Login">
-								<div class="card">
+							
+							<div class="card">
+								<a href="<?=base_url()?>CAwal/Login">
 									<img src="<?=base_url()?>/assets/awal/sewa.png" class="card-img-top" alt="..." style="max-height:270px;">
-									<div class="card-footer">
-										<center>
-											<div class="btn-group">
-												<button type="button" class="btn btn-warning">
-													<a href="<?=base_url()?>CAwal/Login" style="color:white"><b>2021</b></a>
-												</button>
-												<button type="button" class="btn btn-warning">
-													<a href="<?=base_url()?>CAwal/Login" style="color:white"><b>2022</b></a>
-												</button>
-											</div>
-											<!-- <a href="<?=base_url()?>CAwal/Login" class="card-link">
-												<button class="btn rounded submit px-3" style="background-color:#c35846;color:#ffffff;"><b>Siti</b></button>
-											</a> -->
+								</a>
+								<div class="card-footer p-0">
+									<center>
+										<div class="btn-group">
+											<button type="button" class="btn btn-warning">
+												<a href="<?=base_url()?>CAwal/Login" style="color:white"><b>2021</b></a>
+											</button>
+											<button type="button" class="btn btn-warning">
+												<a href="<?=base_url()?>CAwal/Login" style="color:white"><b>2022</b></a>
+											</button>
+										</div>
+										<!-- <a href="<?=base_url()?>CAwal/Login" class="card-link">
+											<button class="btn rounded submit px-3" style="background-color:#c35846;color:#ffffff;"><b>Siti</b></button>
+										</a> -->
 										</center>
 									</div>
 								</div>
-							</a>
+							</div>
 						</div>
-					</div>
 
+					</div>
 				</div>
 			</div>
-		</div>
-	</body>
-	</html>
+		</body>
+		</html>
