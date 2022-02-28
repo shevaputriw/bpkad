@@ -96,14 +96,14 @@
 							</a>
 							<div class="card-footer p-0">
 								<div class="btn-group" style="width:100%">
-									<button type="button" style="width:27.6%" class="btn p-0">&nbsp;</button>
-									<button type="button" style="width:24%" class="btn p-0 btn-warning btn-sewa" style="border-bottom-left-radius: 5px;">
+									<button type="button" style="width:27.6%; pointer-events:none; border:none" class="btn p-0">&nbsp;</button>
+									<button type="button" style="width:23.5%; border-bottom-left-radius:5px;" class="btn p-0 btn-warning btn-sewa">
 										<a href="<?=base_url()?>CAwal/Login" style="color:white"><b>2021</b></a>
 									</button>
-									<button type="button" style="width:24%" class="btn p-0 btn-warning btn-sewa" style="border-bottom-right-radius: 5px">
+									<button type="button" style="width:23.5%; border-bottom-right-radius:5px" class="btn p-0 btn-warning btn-sewa">
 										<a href="<?=base_url()?>CAwal/Login" style="color:white"><b>2022</b></a>
 									</button>
-									<button type="button" style="width:24.4%" class="btn p-0">&nbsp;</button>
+									<button type="button" style="width:25.4%; pointer-events:none border:none" class="btn p-0">&nbsp;</button>
 								</div>
 							</div>
 						</div>
