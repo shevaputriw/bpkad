@@ -78,7 +78,7 @@
 					</div>
 
 					<div class="col-md-4 col-sm-12 mb-3">
-						<a href="https://jalasemar.mojokertokab.go.id/siti/login">
+						<a href="https://jalasemar.mojokertokab.go.id/siti">
 							<div class="card">
 								<img src="<?=base_url()?>/assets/awal/Siti.png" class="card-img-top" alt="..." style="max-height:270px;">
 								<!-- <div class="card-footer">
