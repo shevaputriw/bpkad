@@ -34,7 +34,7 @@
 			<div class="container">
 				<div class="row" style="margin-top:8%;margin-bottom:4%;">
 					<div class="col-md-4 col-sm-12 mb-3">
-						<a href="<?=base_url()?>CAwal/Login">
+						<a href="#">
 							<div class="card">
 								<img src="<?=base_url()?>/assets/awal/Candibrama.png" class="card-img-top" alt="..." style="max-height:270px;">
 								<!-- <div class="card-footer">
@@ -67,7 +67,7 @@
 					</div>
 
 					<div class="col-md-4 col-sm-12 mb-3">
-						<a href="<?=base_url()?>CAwal/Login">
+						<a href="#">
 							<div class="card">
 								<img src="<?=base_url()?>/assets/awal/Sigapuranew.png" class="card-img-top" alt="..." style="max-height:270px;">
 								<!-- <div class="card-footer">
@@ -91,7 +91,7 @@
 					<div class="col-md-4 col-sm-12 mb-3">
 
 						<div class="card">
-							<a href="<?=base_url()?>CAwal/Login">
+							<a href="#">
 								<img src="<?=base_url()?>/assets/awal/sewa.png" class="card-img-top" alt="..." style="max-height:270px;">
 							</a>
 						</div>
@@ -99,10 +99,10 @@
 							<div class="btn-group" style="width:100%">
 								<button type="button" style="width:27.8%; pointer-events:none; border:none; background-color:transparent" class="btn p-0">&nbsp;</button>
 								<button type="button" style="width:23.3%; border-bottom-left-radius:5px; border-right-color: white !important; height:25px" class="btn p-0 btn-warning btn-sewa">
-									<a href="<?=base_url()?>CAwal/Login" style="color:white"><b>2021</b></a>
+									<a href="https://sidirga.mojokertokab.go.id" style="color:white"><b>2022</b></a>
 								</button>
 								<button type="button" style="width:23.3%; border-bottom-right-radius:5px; border-left-color: white !important; height:25px" class="btn p-0 btn-warning btn-sewa">
-									<a href="<?=base_url()?>CAwal/Login" style="color:white"><b>2022</b></a>
+									<a href="https://sidirga.mojokertokab.go.id/s2023" style="color:white"><b>2023</b></a>
 								</button>
 								<button type="button" style="width:26.4%; pointer-events:none border:none; background-color:transparent" class="btn p-0">&nbsp;</button>
 							</div>
