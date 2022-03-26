@@ -92,7 +92,7 @@
 
 						<div class="card">
 							<a href="#">
-								<img src="<?=base_url()?>/assets/awal/sewa.png" class="card-img-top" alt="..." style="max-height:270px;">
+								<img src="<?=base_url()?>/assets/awal/sidirga.png" class="card-img-top" alt="..." style="max-height:270px;">
 							</a>
 						</div>
 						<div class="card-footer p-0" style="border-top-width:0px; margin-top:-1px">
