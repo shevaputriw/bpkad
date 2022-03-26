@@ -28,6 +28,16 @@
 		border-color: #ed5b28 !important;
 	}
 </style>
+<style>
+	.centered {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		color: white;
+		letter-spacing: 8px;
+	}
+</style>
 <body>
 	<div class="container">
 		<div class="container">
@@ -94,14 +104,15 @@
 							<a href="#">
 								<img src="<?=base_url()?>/assets/awal/sidirga.png" class="card-img-top" alt="..." style="max-height:270px;">
 							</a>
+							<div class="centered"><b>SIDIRGA</b></div>
 						</div>
-						<div class="card-footer p-0" style="border-top-width:0px; margin-top:-1px">
+						<div class="card-footer p-0" style="border-top-width:0px; margin-top:-27px">
 							<div class="btn-group" style="width:100%">
 								<button type="button" style="width:27.8%; pointer-events:none; border:none; background-color:transparent" class="btn p-0">&nbsp;</button>
-								<button type="button" style="width:23.3%; border-bottom-left-radius:5px; border-right-color: white !important; height:25px" class="btn p-0 btn-warning btn-sewa">
+								<button type="button" style="width:23.3%; border-top-left-radius:5px; border-right-color: white !important; height:25px" class="btn p-0 btn-warning btn-sewa">
 									<a href="https://sidirga.mojokertokab.go.id" style="color:white"><b>2022</b></a>
 								</button>
-								<button type="button" style="width:23.3%; border-bottom-right-radius:5px; border-left-color: white !important; height:25px" class="btn p-0 btn-warning btn-sewa">
+								<button type="button" style="width:23.3%; border-top-right-radius:5px; border-left-color: white !important; height:25px" class="btn p-0 btn-warning btn-sewa">
 									<a href="https://sidirga.mojokertokab.go.id/s2023" style="color:white"><b>2023</b></a>
 								</button>
 								<button type="button" style="width:26.4%; pointer-events:none border:none; background-color:transparent" class="btn p-0">&nbsp;</button>
