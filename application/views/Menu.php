@@ -108,14 +108,14 @@
 						</div>
 						<div class="card-footer p-0" style="border-top-width:0px; margin-top:-1px">
 							<div class="btn-group" style="width:100%">
-								<button type="button" style="width:27.8%; pointer-events:none; border:none; background-color:transparent" class="btn p-0">&nbsp;</button>
-								<button type="button" style="width:23.3%; border-bottom-left-radius:5px; border-right-color: white !important; height:25px" class="btn p-0 btn-warning btn-sewa">
+								<button type="button" style="width:27.6%; pointer-events:none; border:none; background-color:transparent" class="btn p-0">&nbsp;</button>
+								<button type="button" style="width:23.2%; border-bottom-left-radius:5px; border-right-color: white !important; height:25px" class="btn p-0 btn-warning btn-sewa">
 									<a href="https://sidirga.mojokertokab.go.id" style="color:white"><b>2022</b></a>
 								</button>
-								<button type="button" style="width:23.3%; border-bottom-right-radius:5px; border-left-color: white !important; height:25px" class="btn p-0 btn-warning btn-sewa">
+								<button type="button" style="width:23.2%; border-bottom-right-radius:5px; border-left-color: white !important; height:25px" class="btn p-0 btn-warning btn-sewa">
 									<a href="https://sidirga.mojokertokab.go.id/s2023" style="color:white"><b>2023</b></a>
 								</button>
-								<button type="button" style="width:26.4%; pointer-events:none border:none; background-color:transparent" class="btn p-0">&nbsp;</button>
+								<button type="button" style="width:26.8%; pointer-events:none border:none; background-color:transparent" class="btn p-0">&nbsp;</button>
 							</div>
 						</div>
 					</div>
