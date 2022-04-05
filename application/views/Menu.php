@@ -44,7 +44,7 @@
 			<div class="container">
 				<div class="row" style="margin-top:8%;margin-bottom:4%;">
 					<div class="col-md-4 col-sm-12 mb-3">
-						<a href="https://jalasemar.mojokertokab.go.id/candinew">
+						<a href="https://candibrama.mojokertokab.go.id/candinew">
 							<div class="card">
 								<img src="<?=base_url()?>/assets/awal/Candibrama.png" class="card-img-top" alt="..." style="max-height:270px;">
 								<!-- <div class="card-footer">
